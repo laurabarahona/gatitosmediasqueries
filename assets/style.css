@@ -1,0 +1,32 @@
+.gallery {
+    margin:0;
+    padding:0;
+}
+.gallery-item{
+    width:70%;
+    max-width: 500px;
+    margin:0 auto;
+}
+img{
+    height: auto;
+    width:100%;
+    border-radius: 5px;
+}
+/*tablet styles*/
+@media(min-width:768px){
+    .gallery{
+        text-align: center;
+    }
+    .gallery-item{
+        display:inline-block;
+        width:40%;
+        margin:20px;  
+    }
+}
+/*desktop styles*/
+@media(min-width:1280px){
+    .gallery-item{
+        width:30%;
+        margin:20px 10px;
+    }
+}
